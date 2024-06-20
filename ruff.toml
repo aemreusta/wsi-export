@@ -1,0 +1,4 @@
+extend-include = ["*.ipynb"]
+
+[lint.pydocstyle]
+convention = "google"  # Accepts: "google", "numpy", or "pep257".
