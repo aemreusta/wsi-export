@@ -1,4 +1,2 @@
 openslide-python
-ruff
 tqdm
-pre-commit

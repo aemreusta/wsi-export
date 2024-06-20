@@ -1,0 +1,157 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore data files
+*.csv
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
+
+# Ignore requirements file (if it's generated dynamically)
+requirements.txt
+
+# Ignore database files
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignore OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Visual Studio Code project files
+.vscode/
+.vscode/*
+
+# Ignore Windows-specific files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Ignore build results
+build/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore package managers files
+node_modules/
+.pnpm-debug.log
+.yarn/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore test results
+test-results/
+tests-results.xml
+
+# Ignore documentation builds
+docs/_build/
+
+# Ignore various IDE files
+*.idea/
+*.sublime-project
+*.sublime-workspace
+*.project
+*.classpath
+*.settings/
+*.metadata/
+*.factorypath
+
+# Ignore other unneeded files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+*.diff
+*.patch
+*.orig
+*.old
+*.rej
+
+# Ignore environment files
+.env
